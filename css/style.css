@@ -1,0 +1,210 @@
+
+/*
+Author:  Yoqub;
+Theme: Restaurant Food Order ;
+version: 1.0; 
+*/
+/* css for all*/
+*{
+    margin: 0 0;
+    padding: 0 0;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+
+.image-responsive{
+    width: 100%;
+}
+
+.text-right{
+    text-align: right;
+}
+.text-center{
+    text-align: center;
+}
+.text-white{
+    background-color: rgba(19, 19, 24, 0.5);
+    color:white;
+}
+
+.text-grey{
+    color: grey;
+}
+
+    .clearfix{
+        clear:both;
+        float: none;
+    }
+
+    a {
+        color: #4b4b4b;
+        text-decoration: none;
+    }
+    a:hover{
+        color:#d35400;
+    }
+.btn{
+    padding: 1%;
+    border:none; 
+    font-size:1rem;   
+                                                      
+}
+
+.btn-primary{
+    background-color:#6a89cc;
+    color:white;
+    cursor:pointer;
+}
+.btn-primary:hover{
+    color:white;
+    background-color: #e55039;
+
+
+}
+
+
+h2{
+    color: #EE5A24;
+    font-size: 2rem;
+}
+h3{
+    font-size: 1.5rem;
+}
+
+.float-container{
+    position: relative;
+    
+  
+}
+.float-text{
+    position: absolute;
+    bottom: 50px;
+    left: 40%;
+}
+
+.logo { 
+
+    
+
+    
+    float: left;
+    width:10%;
+
+    
+
+} 
+.menu {
+    line-height: 60px;
+}
+
+
+.menu ul{
+    list-style-type: none;
+}
+
+.menu ul li{
+    display: inline;
+    padding : 1%;
+    font-weight: bold;
+}
+
+
+
+.food-search{
+    background-image: url(../images/hotdog.jpg);
+    background-size: cover  ;
+    background-repeat: no-repeat;
+    background-position: center;
+    padding: 15% 0 ;
+    
+}
+ 
+
+.food-search input[ type="search"]{
+    width: 50%;
+    padding: 1%;
+    font-size: 1rem;
+    border: none;
+    border-radius: 5px;
+
+
+}                    
+
+/* CSS for Categories*/
+
+.categories{
+    padding:  4% 0 ;
+
+} 
+
+.box-3{
+  
+    width: 28%;
+    float: left;
+    margin: 2%;
+}
+
+/*CSS for Food Menu*/
+
+.Food-menu{
+    background-color:#ececec;
+padding:4% 0;
+height: 800px;
+}
+
+.container{
+    
+    width:80%;
+    margin: 0 auto; 
+    padding: 1%;
+   }
+
+.Food-menu-box{
+    
+    width: 43%;
+    margin: 1%;
+    padding: 2%;
+    float: left;
+    background-color: white;
+    border-radius: 15px;
+}
+
+.Food-menu-img{
+    float:left;
+}
+
+.clear-both {
+    clear:both;
+}
+
+.Food-menu-desc{
+    width: 30%;
+    float: right;
+    margin-left:8%;
+    margin-top: -180px;
+}
+
+.Food-price{
+    font-size: 1.2rem;
+    margin: 5% 0;
+}
+
+.Food-detail{
+    font-size: 1rem;
+    color: grey;
+}
+
+.Foods{
+    padding-top: 20px;
+}
+
+
+.Social ul{
+    list-style-type: none;
+}
+
+
+.Social ul li{
+    display: inline;
+    padding: 1%;
+}
